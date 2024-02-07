@@ -21,4 +21,6 @@ class MongoDBDao(
     val mongoCollection by lazy {
         mongoDatabase.getCollection(collectionName)
     }
+
+    suspend fun createItem()
 }
