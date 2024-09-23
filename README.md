@@ -1,7 +1,7 @@
 # locking-util
 
 Distributed lock with persistence, for now by default it uses mongo db. \
-By default config of procurement database is used. \
+By default config of database is used. \
 It is expected clients will provide the below mentioned configs to avoid lockId conflict.
 
 ## Requirements
